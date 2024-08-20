@@ -1,5 +1,12 @@
-There is a Board class representing the minesweeper game board and several GUI elements in gui.py. There is also a Leaderboard class which stores, updates and displays leaderboard. The main Game class puts it all together
-How to run:
-Clone the repository and do python run.py. If the window is unresponsive you should use pythonw instead (this depends on OS and Python versions).
+# Minesweeper Game
 
-Game state is stored near run.py.
+## Overview
+
+This project is a Minesweeper game implemented with a `Board` class representing the game board and several GUI elements found in `gui.py`. The `Leaderboard` class is responsible for storing, updating, and displaying the leaderboard. The main `Game` class integrates these components to create the full game experience.
+
+## How to Run
+
+1. Clone the repository.
+2. Run the game using:
+   ```bash
+   python run.py
